@@ -5,7 +5,7 @@
 **Multi-character scenes · Emotion system · Auto-transitions · Typewriter animation**  
 Built entirely in vanilla HTML/CSS/JS — no framework, no game engine.
 
-*Built in 2024.*
+*Built in late 2024.*
 
 ---
 

@@ -1,0 +1,36 @@
+{
+  "name": "theanecdote",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "visualnovel",
+  "author": "skyle",
+  "license": "ISC",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.skyle.theanecdote",
+    "productName": "TA",
+    "linux": {
+      "target": ["AppImage", "dir"],
+      "category": "Game",
+      "icon": "icon.png"
+    },
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!**/node_modules/**/*.{md,d.ts,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj,iml}",
+      "!**/node_modules/.bin",
+      "!**/.editorconfig",
+      "!**/.git",
+      "!**/.gitignore"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.0.0"
+  }
+}

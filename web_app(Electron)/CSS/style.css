@@ -1,0 +1,57 @@
+html{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #A8B7FF;
+    background: -webkit-linear-gradient(180deg, #000000, #000000 100%);
+}
+body{
+    margin: 0;
+    padding: 0;
+    cursor: crosshair;
+}
+#box{
+    transition: all 1s ease;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#Game{
+    transition: all 0.3s ease;
+    height: 680px;
+    width: 1237px;
+    background-size: cover;
+}
+diaBox{
+    transition: all 0.3s ease;
+    position: absolute;
+    bottom: 20px;
+    width: 700px;
+    height: 180px;
+    padding: 10px 10px 10px 10px;
+    border: white solid;
+    line-height: 3.5vw;
+    font-family: font1;
+    font-size: 30px;
+    color: white;
+    text-shadow: #000000 0px 5px 8px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+charDisp{
+    transition: all 0.3s ease;
+    position: absolute;
+    bottom: 140px;
+    left: 170px;
+    height: 80px;
+    width: 80px;
+    border: white solid;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+}
+
+@font-face{ /* POLICE-1 */
+    font-family: "font1";
+    src: url("../assets/FONTs/placeHolder.ttf")
+}

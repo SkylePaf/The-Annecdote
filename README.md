@@ -96,7 +96,9 @@ To create your own story: replace the assets and rewrite `DATA/data.b64`.
 
 ## Showcase story — *The Anecdote*
 
-A short original story made to demonstrate the engine — featuring a friend and Hololive vtuber characters as a fun casting choice.
+A short original story made to demonstrate the engine - featuring a friend and Hololive vtuber characters as a fun casting choice.
+
+[▶ Play Online](https://skylepaf.github.io/The-Annecdote/web_browser/index.html)
 
 > Browser version: zoom in (Ctrl +) for the best experience.  
 > For the best experience, run the Electron version.

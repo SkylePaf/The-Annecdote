@@ -3,7 +3,11 @@
 > Drop your assets and a JSON file. The engine handles the rest.
 
 **Multi-character scenes · Emotion system · Auto-transitions · Typewriter animation**  
+<<<<<<< HEAD
+Built entirely in vanilla HTML/CSS/JS - no framework, no game engine.
+=======
 Built entirely in vanilla HTML/CSS/JS — no framework, no game engine.
+>>>>>>> 18bb63a8d4dbb8019cb99b1bcb7d8805b00ab7e3
 
 *Built in late 2024.*
 
@@ -23,8 +27,15 @@ Built entirely in vanilla HTML/CSS/JS — no framework, no game engine.
 
 ## How it works
 
+<<<<<<< HEAD
+IMPORTANT : THE JSON FILE MUST BE ENCODED IN BASE64 BEFOREWARDS
+
+The engine reads a single JSON file encoded in base64 and plays the story automatically.  
+No code to write - just provide your assets and fill the JSON.
+=======
 The engine reads a single JSON file and plays the story automatically.  
 No code to write — just provide your assets and fill the JSON.
+>>>>>>> 18bb63a8d4dbb8019cb99b1bcb7d8805b00ab7e3
 
 Each dialogue entry defines everything for that scene:
 
@@ -56,14 +67,23 @@ Value: ["Background", "Soundtrack", "SpeakerIcon", "Text", "posA", "posB"]
 
 - **Up to 4 simultaneous characters** — placed at FL / L / M / R / FR positions on canvas
 - **Emotion variants** — each character has multiple sprite states (neutral, happy, determined...)
+<<<<<<< HEAD
+- **Customizable speaker** — possibility to have an unknown character, or one that represent multiple or realy anything
+=======
 - **Combined speaker icons** — when multiple characters speak together, their icons merge
+>>>>>>> 18bb63a8d4dbb8019cb99b1bcb7d8805b00ab7e3
 - **Auto-transitions** — background fades automatically on scene change, sprites update instantly
 - **Typewriter animation** — text renders letter by letter, SPACE skips to next line
 - **Per-scene soundtrack** — music changes automatically, no duplicate plays
 - **Dialogue box toggle** — press A to hide/show the UI for screenshots
+<<<<<<< HEAD
+- **Base64 encoding** - the json file is read in Base64 to to prevent spoilers
+ 
+=======
 - **Base64-e# The Annecdote
  
 ncoded story** — script is obfuscated to prevent spoilers
+>>>>>>> 18bb63a8d4dbb8019cb99b1bcb7d8805b00ab7e3
 
 ---
 
@@ -81,7 +101,11 @@ assets/
     └── SoundEffects/           # one-shot sound effects (.mp3)
 ```
 
+<<<<<<< HEAD
+To create your own story: replace the assets and rewrite `DATA/data.b64`.
+=======
 To create your own story: replace the assets and rewrite `DATA/data.json`.
+>>>>>>> 18bb63a8d4dbb8019cb99b1bcb7d8805b00ab7e3
 
 ---
 
@@ -101,12 +125,21 @@ A short original story made to demonstrate the engine — featuring a friend and
 > Browser version: zoom in (Ctrl +) for the best experience.  
 > For the best experience, run the Electron version.
 
+<<<<<<< HEAD
+To run locally, go to /web_app(Electron) then:
+=======
 To run locally:
+>>>>>>> 18bb63a8d4dbb8019cb99b1bcb7d8805b00ab7e3
 ```bash
 npm install
 npm start
 ```
 
+<<<<<<< HEAD
+*The exe file should be in /web_app(Electron)/dist/ .*
+
+=======
+>>>>>>> 18bb63a8d4dbb8019cb99b1bcb7d8805b00ab7e3
 ---
 
 ## Stack

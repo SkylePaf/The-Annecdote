@@ -121,6 +121,7 @@ Packaged as a desktop app with [Electron](https://www.electronjs.org/).
 ## Credits
 
 Engine, story and integration by **SkylePaf**.  
-Showcase story characters: Hololive vtubers (Fubuki, Korone, Marine) — © Cover Corp.  
+Showcase story characters: Hololive vtubers (Fubuki, Korone, Marine) — © Cover Corp.
+*Built in late 2024.*
 Soundtracks: 8-bit arrangements of Hololive original songs — © Cover Corp.  
 Backgrounds: AI-generated imagery.

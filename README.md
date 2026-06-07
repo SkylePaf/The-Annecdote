@@ -1,4 +1,4 @@
-# The Anecdote — Visual Novel Engine
+# The Anecdote - Visual Novel Engine
 
 > Drop your assets and a JSON file. The engine handles the rest.
 
